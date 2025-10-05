@@ -41,6 +41,29 @@ Jiaqi_Data-Science-1/
 ```
 ---------
 
+## Steps to Reproduce
+
+- First, choose a folder in which you want to clone this project, open Git Bash, and type:
+```
+cd your_folder_path      # (For example: cd C:\Users\your_name\Desktop)
+git clone https://github.com/guiqvlaixi2164-max/Jiaqi_Data-Science-1.git
+cd Jiaqi_Data-Science-1
+```
+- Next, configure the required environment. The steps for this are described in the Environmental Requirements section below. I would recommend option 2, so that you can continue directly with Git Bash.
+- Then, run the codes. Simply type in Git Bash:
+```
+cd code
+python Iris_codes.py
+```
+Remember to enlarge the page a little, otherwise the table will not be fully displayed. If nothing goes wrong, the results will be displayed in the small black window. The code will also automatically save the output to the output folder.
+##### ***Note! !*** Do not run the code when you have opened the iris_output.csv file or iris_plot.png file in the output folder!  Close them first and then run the code.
+
+- Finally, check if the output is the same as what is shown below.
+
+Hopefully these steps won't be too complicated!
+
+-------------
+
 ## Environmental Requirements:
 This project uses Python and utilizes:
 - **pandas** *(for data processing)*
@@ -57,32 +80,10 @@ conda activate iris-env
 ```
 *Option 2 (pip)* **Please use this if you are using Git Bash here!**
 ```
+pwd    # (Just to check if you are still in Jiaqi_Data-Science-1 directory)
 pip install -r requirements.txt
 ```
 ----------
-
-## Steps to Reproduce
-
-- First, choose a folder in which you want to clone this project, open Git Bash, and type:
-```
-cd your_folder_path      # (For example: cd C:\Users\your_name\Desktop)
-git clone https://github.com/guiqvlaixi2164-max/Jiaqi_Data-Science-1.git
-cd Jiaqi_Data-Science-1
-```
-- Next, configure the required environment. The steps for this are described in the Environmental Requirements section above. I would recommend option 2, so that you can continue directly with Git Bash.
-- Then, run the codes. Simply type in Git Bash:
-```
-cd code
-python Iris_codes.py
-```
-Remember to enlarge the page a little, otherwise the table will not be fully displayed. If nothing goes wrong, the results will be displayed in the small black window. The code will also automatically save the output to the output folder.
-##### ***Note! !*** Do not run the code when you have opened the iris_output.csv file or iris_plot.png file in the output folder!  Close them first and then run the code.
-
-- Finally, check if the output is the same as what is shown below.
-
-Hopefully these steps won't be too complicated!
-
--------------
 
 ## Output Description:
 
