@@ -47,7 +47,7 @@ This project uses Python and utilizes:
 - **os** *(for correctly specifying the dump file path)*
 
 os is a built-in Python library and does not require installation.<br>
-To configure your environment, first please ensure that Python 3.6+ is already installed. Next, Open Git Bash and use one of the following methods:<br>
+To configure your environment, first please ensure that Python 3.8+ is already installed. Next, Open Git Bash and use one of the following methods:<br>
 *Option 1 (conda)*
 ```
 conda env create -f environment.yml
