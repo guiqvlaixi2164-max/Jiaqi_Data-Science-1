@@ -95,7 +95,8 @@ Iris-virginica |	6.588 |	2.974 |	5.552 |	2.026
 
 <br>
 the other is an image that compares the length and width of the sepal and petal of each iris specie in a bar chart.<br>
-![iris_plot](https://github.com/guiqvlaixi2164-max/Jiaqi_Data-Science-1/blob/main/output/iris_plot.png)
+
+![iris_plot](https://raw.githubusercontent.com/guiqvlaixi2164-max/Jiaqi_Data-Science-1/main/output/iris_plot.png)
 
 
 
