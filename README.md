@@ -28,7 +28,7 @@ The data source is https://www.kaggle.com/datasets/saurabh00007/iriscsv/code.
 ```
 Jiaqi_Data-Science-1/  
 ├── code/                 
-│   └── iris_codes.py          
+│   └── Iris_codes.py          
 ├── data/               
 │   └── Iris.csv         
 ├── output/             
@@ -72,7 +72,7 @@ cd Jiaqi_Data-Science-1
 - Run the codes. Type in Git Bash:
 ```
 cd code
-python iris_codes.py
+python Iris_codes.py
 ```
 If nothing goes wrong, the code will automatically save the output to the output folder.
 ##### ***Note! !*** Do not run the code when you have opened the iris_output.csv file or iris_plot.png file in the output folder!  Close them first and then run the code.
