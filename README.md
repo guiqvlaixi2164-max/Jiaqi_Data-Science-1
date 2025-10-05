@@ -50,12 +50,12 @@ git clone https://github.com/guiqvlaixi2164-max/Jiaqi_Data-Science-1.git
 cd Jiaqi_Data-Science-1
 ```
 - Next, configure the required environment. The steps for this are described in the Environmental Requirements section below. I would recommend option 2, so that you can continue directly with Git Bash.
-- Then, run the codes. Simply type in Git Bash:
+- Then, run the codes. Simply type in your terminal:
 ```
 cd code
 python Iris_codes.py
 ```
-Remember to enlarge the page a little, otherwise the table will not be fully displayed. If nothing goes wrong, the results will be displayed in the small black window. The code will also automatically save the output to the output folder.
+**Remember to enlarge the page a little, otherwise the table will not be fully displayed.** If nothing goes wrong, the results will be displayed in the small black window. The code will also automatically save the output to the output folder.
 ##### ***Note! !*** Do not run the code when you have opened the iris_output.csv file or iris_plot.png file in the output folder!  Close them first and then run the code.
 
 - Finally, check if the output is the same as what is shown below.
@@ -73,8 +73,10 @@ This project uses Python and utilizes:
 os is a built-in Python library and does not require installation.<br>
 To configure your environment, first please ensure that Python 3.8+ is already installed. Next, Open a terminal and choose one of the following ways to type in:<br>
 *Option 1 (conda)* 
-（**If you are using Git Bash, please do not use Option 1.** This option is for Anaconda Prompt and Windows PowerShell.)
+（**If you want to use Git Bash here, please do not use Option 1.** This option is for Anaconda Prompt and Windows PowerShell.)
 ```
+cd your_folder_path
+cd Jiaqi_Data-Science-1
 conda env create -f environment.yml
 conda activate iris-env
 ```
