@@ -47,13 +47,14 @@ This project uses Python and utilizes:
 - **os** *(for correctly specifying the dump file path)*
 
 os is a built-in Python library and does not require installation.<br>
-To configure your environment, first please ensure that Python 3.8+ is already installed. Next, Open Git Bash and use one of the following methods:<br>
-*Option 1 (conda)*
+To configure your environment, first please ensure that Python 3.8+ is already installed. Next, Open a terminal and use one of the following methods:<br>
+*Option 1 (conda)* 
+（**If you are using Git Bash, please do not use Option 1.** This option is for Anaconda Prompt and Windows PowerShell users.)
 ```
 conda env create -f environment.yml
 conda activate iris-env
 ```
-*Option 2 (pip)*
+*Option 2 (pip)* **Use this if you are using Git Bash!**
 ```
 pip install -r requirements.txt
 ```
@@ -68,7 +69,7 @@ cd your_folder_path
 git clone https://github.com/guiqvlaixi2164-max/Jiaqi_Data-Science-1.git
 cd Jiaqi_Data-Science-1
 ```
-- Configure the required environment. The steps for this are described in the Environmental Requirements section above.
+- Configure the required environment. The steps for this are described in the Environmental Requirements section above. I recommend option 2, because you can continue directly with gitbash.
 - Run the codes. Type in Git Bash:
 ```
 cd code
