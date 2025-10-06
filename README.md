@@ -54,7 +54,7 @@ cd Jiaqi_Data-Science-1
 cd code
 python Iris_codes.py
 ```
-**Remember to enlarge the page a little, otherwise the table will not be fully displayed. It may take up to ten seconds to generate the output, please wait a moment!** If nothing goes wrong, the results will be displayed in the small black window. The code will also automatically save the output to the output folder.
+**Remember to enlarge the page a little, otherwise the table will not be fully displayed. It may take up to ten seconds to generate the output for the first time, please wait a moment!** If nothing goes wrong, the results will be displayed in the small black window. The code will also automatically save the output to the output folder.
 ##### ***Note! !*** Do not run the code when you have opened the iris_output.csv file or iris_plot.png file in the output folder!  Close them first and then run the code.
 
 - Finally, check if the output is the same as what is shown below.
