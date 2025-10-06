@@ -1,7 +1,7 @@
 # Preparations
 import os  
-import pandas as pd  
-import matplotlib.pyplot as plt
+import pandas as pd     # for data processing
+import matplotlib.pyplot as plt     # for plotting
 
 # These lines are for reading the csv file path correctly
 script_dir=os.path.dirname(os.path.abspath(__file__))  
