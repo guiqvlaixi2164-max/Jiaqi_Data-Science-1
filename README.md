@@ -49,7 +49,7 @@ cd your_folder_path      # (For example: cd C:\Users\your_name\Desktop)
 git clone https://github.com/guiqvlaixi2164-max/Jiaqi_Data-Science-1.git
 cd Jiaqi_Data-Science-1
 ```
-- Next, configure the required environment. The steps for this are described in the Environmental Requirements section below. I would recommend option 2, so that you can continue directly with Git Bash.
+- Next, configure the required environment. The steps for this are described in the Environmental Requirements section below. I would recommend using Powershell or Anaconda Prompt, which are more stable than Git Bash.
 - Then, run the codes. Simply type in your terminal:
 ```
 cd code
@@ -73,16 +73,17 @@ This project uses Python and utilizes:
 os is a built-in Python library and does not require installation.<br>
 To configure your environment, first please ensure that Python 3.8+ is already installed. Next, Open a terminal and choose one of the following ways to type in:<br>
 - *Option 1 (conda)* 
-（**If you want to use Git Bash here, please do not use Option 1.** This option is for Anaconda Prompt and Windows PowerShell.)
+(**If you want to use Git Bash here, please do not use Option 1.** This option is for Anaconda Prompt and Windows PowerShell.)
 ```
 cd your_folder_path
 cd Jiaqi_Data-Science-1
 conda env create -f environment.yml
 conda activate iris-env
 ```
-- *Option 2 (pip)* **Please use this if you are using Git Bash here!**
+- *Option 2 (pip)*
+(**Please use this if you are using Git Bash here!** This option is for all: Anaconda Prompt, Windows PowerShell and Git Bash.)
 ```
-pwd    # (Just to check if you are still in Jiaqi_Data-Science-1 directory)
+pwd    # (Just to check if you are still in Jiaqi_Data-Science-1 directory, if not, type "cd your_folder_path" and "cd Jiaqi_Data-Science-1" first)
 pip install -r requirements.txt
 ```
 ----------
